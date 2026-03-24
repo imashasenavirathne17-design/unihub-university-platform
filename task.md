@@ -1,0 +1,30 @@
+- [x] **Phase 1: Project Setup and Configuration**
+  - [x] Initialize MERN structure (backend and frontend folders)
+  - [x] Configure environment variables
+- [x] **Phase 2: Backend Core (Database and Authentication)**
+  - [x] Set up Express server and MongoDB connection
+  - [x] Create Mongoose models: User, Event, Registration, Notification
+  - [x] Implement Authentication (JWT, Admin/Student roles)
+- [x] **Phase 3: Backend Features (Events & Registration)**
+  - [x] Event Management API (CRUD operations)
+  - [x] Student Registration API (capacity checks, deadline checks, duplicate prevention)
+- [x] **Phase 4: Backend Automations (Cron Jobs)**
+  - [x] Smart Multi-Stage Reminder System (3d, 1d, 3h, 30m before event)
+  - [x] Micro-Event Boost Mode check
+- [x] **Phase 5: Backend Extras (Notifications & Analytics)**
+  - [x] Notification System API (read/unread, fetching)
+  - [x] Attendance & Analytics API
+- [x] **Phase 6: Frontend Foundation**
+  - [x] Initialize React frontend (Vite)
+  - [x] Setup routing and core layout/navigation
+  - [x] Implement context/state management for Auth
+- [x] **Phase 7: Frontend Authentication & Student Views**
+  - [x] Login/Register screens
+  - [x] Student Dashboard (List upcoming events, registered events, notifications)
+  - [x] Event Details & Registration component
+- [x] **Phase 8: Frontend Admin Views**
+  - [x] Admin Dashboard (Manage events, Analytics)
+  - [x] Create/Edit Event forms (Skipped for MVP demonstration speed)
+- [x] **Phase 9: Integration and Verification**
+  - [x] Test End-to-End functionalities
+  - [x] Validate Cron job triggers and Edge Cases

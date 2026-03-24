@@ -1,4 +1,26 @@
+# Dependencies
 node_modules/
+
+# Environment files
 .env
+
+# Build outputs
 dist/
 build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+dns_result.json
+dns_txt.json
+test-results.txt
